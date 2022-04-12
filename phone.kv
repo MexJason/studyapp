@@ -1,0 +1,46 @@
+<MyGrid>:
+
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'images/tree and lake.jpeg'
+    RelativeLayout:
+        orientation: "vertical"
+        Label:
+            text: "Welcome"
+            id: my_label
+            text_size: self.width, None
+            pos_hint: {'center_x': .5}
+            font_size: "36dp"
+            color: 1, 1, 1
+
+        Button:
+            on_release: my_label.text = root.get_text()
+            pos_hint: {'center_x': 0.5}
+            size_hint: .1, .1
+            background_color: 1, 1, 1, .5
+
+            Image:
+                size: self.size
+                source: 'images/Shuffle.png'
+                center_x: self.parent.center_x
+                center_y: self.parent.center_y
+
+        TextInput:
+            id: textinput
+            text: "Do you want to add a new note?"
+            size_hint: .4, .1
+
+        Button:
+            pos_hint: {'right': 1, 'top': 1}
+            size_hint: .1, .1
+            background_color: 1, 1, 1, .5
+
+
+            Image:
+                size: self.size
+                pos_hint: {'right': 1, 'top': 1}
+                source: 'images/imessage.png'
+                center_x: self.parent.center_x
+                center_y: self.parent.center_y

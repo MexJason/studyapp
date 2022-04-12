@@ -1,0 +1,45 @@
+In Arrays, Stacks, Queues, Linked List: Search is O(n)
+Search is O(1) in Hash Tables
+Good Job :) 
+Keep Up The Good Work
+Search is O(log(n)) in Binary Search
+Almost all trees have search of O(log(n))
+Dynamic Programming Combines Divide & Conquer with Memoization (Caching)
+Recursion is typically used for Binary Search Tree Problems
+Dijkstra & Bellman-Ford Algorithms are used to solve the shortest path problems
+on_release is used in kivy to command something after release of a button
+Dijkstra Algo. is more efficient and faster than Bellman-Ford, but it does not accommodate for negative numbers
+Keeping in mind, time and space complexity is very important
+Coding is fun :)
+O(n) or better!
+3 Pillars of being good engineer: readable code, good time complexity, good space complexity
+There are always trade-offs when using different approaches
+Important operations on data structures: insertion, deletion, traversal, searching, sorting, access
+Push/Append is O(1) on an array/list
+file = open("file_name", "r"), lets you read from a text file in Python
+Insertion in an Array is O(n) (will have to shift)
+Insertion in Stack is O(1)
+Insertion in Hash Table is O(1)
+Insertion in Linked List is O(1)
+Insertion in Queue is O(1)
+Binary Search Tree: Access, Search, Insertion, Deletion are all O(Log(n))
+Practice Recursion!
+Practice!!
+Memoization is Caching so the previous calculated values are stored in memory and saves time
+Our only limitations are the ones we put on ourselves
+Review how to traverse tree! Review Traversal!!
+3 ways to implement D.F.S: inorder, preorder, & postorder
+REVIEW D.F.S and B.F.S
+Depth First Search goes all the way down each branch (DEEP) until all nodes or specific node is reached
+Quicksort and Mergesort are the best sorts
+Quicksort is best until you are worried by worstcase(O(n^2)) or selecting bad pivot, if so choose Mergesort
+Non-comparison sorts: Radix sort and Counting sort are more efficient sorts but limited in capabilities
+Space: Quicksort = O(log(n)) and Mergesort = O(n)
+~ (Compliment): flips the bits from 1s-> 0s and 0s -> 1s, ~int => -(int + 1)
+^ (XOR): if the bits are same -> 0, if the bits are different -> 1. Example: 1010 ^ 0001 = 1011
+& (AND): returns 1 when the bits both have 1, otherwise, bit is 0. Example: 1010 & 0001 = 0
+| (OR): returns 1 for each bit that either one has a bit of 1. Example: 1010 | 0001 = 1011
+<< (Left Shift): shifts the whole bit towards the left (adds some bits to the end)
+>> (Right Shift): shifts the whole bit toward the right (lose some bits at the end)
+Parity: if #1's in a bit is even, then parity = 0 and if #1's in a bit is odd, then parity = 1
+Quicksort: selects pivot and orders all elements either less than come before it and then the greater values after it
